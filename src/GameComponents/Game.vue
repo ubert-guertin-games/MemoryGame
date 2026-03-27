@@ -4,7 +4,7 @@
 */
 
 <script setup lang="ts">
-	  import { ref, Ref, computed } from "vue";
+	  import { ref, type Ref, computed } from "vue";
 
 	  import Card from "./Card.vue";
 	  import GameData from "./Game.data.vue";
@@ -14,7 +14,7 @@
 
 	  import { RATIO_GRID, DEFAULT_RATIO, DEFAULT_CARD_AUTO_FLIP_TIME_MS  } from "../Utils/constants.ts";
 	  import shuffle from "../Utils/shuffle.ts";
-	  import { RowColumn, RatioObject } from "../Utils/type.ts";
+	  import type { RowColumn, RatioObject } from "../Utils/type.ts";
 
 	  import { numberOfErrors,numberOfInteractions } from "../Utils/globals.ts"; 
 
