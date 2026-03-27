@@ -1,0 +1,13 @@
+#gameLauncher {
+		margin-top: 100px;
+}
+
+header, footer {
+		color: white;
+		font-weight: bold;
+		font-family: sans-serif;
+		user-select: none;
+		text-align: center;
+}
+
+

@@ -1,0 +1,72 @@
+#fadeScreen {
+		pointer-events: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 100vh;
+		z-index: 1;
+		background-color: transparent;
+		transition: 0.5s;
+}
+
+#fadeScreen.fade {
+		background-color: black;
+}
+
+main {
+		display: flex;
+		flex-direction: column;
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+body label {
+		color: white;
+		font-size: 20px;
+		font-family: sans-serif;
+		font-weight: bold;
+}
+
+#startGame {
+		height: 40px;
+		width: 100%;
+		background-color: yellow;
+		color: black;
+		outline: none;
+		border:none;
+		font-family: sans-serif;
+		font-size: 20px;
+		font-weight: bold;
+		cursor: pointer;
+		box-shadow: 0px 10px 0px 0px gold;
+		transition: 0.3s;
+}
+
+#startGame:hover {
+		box-shadow: 0px 7px 0px 0px gold;
+		transform: translateY(3px);
+}
+
+#startGame.click {
+		box-shadow: 0px 0px 0px 0px gold;
+		transform: translateY(10px);
+}
+
+#selectCards {
+		user-select: none;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 20px;
+}
+
+#selectCards select {
+		height: 30px;
+		cursor: pointer;
+		width: 80px;
+		text-align: center;
+}
+

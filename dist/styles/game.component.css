@@ -1,0 +1,21 @@
+.cards {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		transition: opacity .3s;
+		user-select: none;
+}
+
+.grid {
+		display: grid;
+		column-gap: 10px;
+		width: fit-content;
+		height: fit-content;
+}
+
+main {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+}
+
